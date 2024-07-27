@@ -1,0 +1,76 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: rgba(203, 203, 203, 0.076);
+}
+header {
+    background-image: rgb(232, 232, 232);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: -20px;
+    height: 400px; /* Adjust height as needed */
+}
+
+.header-container {
+    flex: 1; /* Takes up available space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-top {
+    max-width: 500px; /* Adjust the size as needed */
+    height: auto;
+    left: 50px;
+}
+
+.image-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 400px; /* Adjust size as needed */
+    height: 400px; /* Adjust size as needed */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-button {
+    left: 60px; /* Adjust distance from left */
+    animation: float-left 4s ease-in-out infinite;
+}
+
+.right-button {
+    right: 60px; /* Adjust distance from right */
+    animation: float-right 4s ease ease-in-out infinite;
+    left: 1000px;
+}
+
+.image-button img {
+    width: 100%;
+    height: auto;
+}
+
+.styled-image {
+    height: 500px;
+    width: auto;
+    margin-left: 40px;
+}
+.styled-image2 {
+    height: 500px;
+    width: auto;
+    margin-left: 70px;
+}
+
+.styled-image3 {
+    position:relative;
+    height: 500px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    top: 100px;
+}

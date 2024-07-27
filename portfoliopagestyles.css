@@ -1,0 +1,33 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+body {
+    font-family: 'MyCustomFont', sans-serif;
+}
+
+
+body {
+    background-color: rgb(101, 9, 68);
+}
+
+.image-0{
+    height: 200px;
+    width: auto;
+    position: relative;
+    margin-top: 20px;
+    align-self: center;
+    left: 225px;
+}
+
+.image{
+    position: relative;
+    height: 700px;
+    width: auto;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    left: 150px;
+}

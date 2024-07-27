@@ -1,0 +1,91 @@
+/* Importing fonts */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+body {
+    background-color: rgb(11, 114, 58);
+}
+
+.header-image {
+    height: 450px;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 400px;
+}
+
+body {
+    margin: 0; /* Removes default body margin */
+    padding: 0; /* Removes default body padding */
+}
+
+.container {
+    display: flex; /* Aligns children side by side */
+    justify-content: flex-start; /* Aligns items to the left side of the container */
+    align-items: flex-start; /* Aligns items to the top of the container */
+    gap: 20px; /* Adds space between the text and image */
+    margin: 20px; /* Adds space from the edges of the viewport */
+}
+
+.body-text3 {
+    font-family: "Inter Tight";
+    font-size: 35pt;
+    line-height: 33pt;
+    color: #8CF26F;
+    text-align: left; /* Ensures text is aligned to the right */
+    max-width: 600px; /* Optional: restricts the width of the text area */
+    margin-left: 60px;
+}
+
+.portfolio-link {
+    display: inline-block; /* Allows for padding and margin */
+    text-decoration: none; /* Removes underline from link */
+}
+
+.portfolio-image {
+    display: block;
+    position: relative;
+    max-width: 600px; /* Ensures image is smaller */
+    height: auto;
+    border: none;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    margin-top: -30px;
+    left: 200px;
+}
+
+.film-link:hover .portfolio-image {
+    opacity: 0.8; /* Optional: Adds a hover effect */
+}
+
+.film-link {
+    display: inline-block; /* Allows for padding and margin */
+    text-decoration: none; /* Removes underline from link */
+}
+
+.camera-image {
+    display: block;
+    position: relative;
+    max-width: 600px; /* Ensures image is smaller */
+    height: auto;
+    border: none;
+    cursor: pointer; /* Changes cursor to pointer on hover */
+    left: 200px;
+}
+
+.film-link:hover .camera-image {
+    opacity: 0.8; /* Optional: Adds a hover effect */
+}
+.body-text4 {
+    font-family: "Inter Tight";
+    font-size: 35pt;
+    line-height: 33pt;
+    color: #8CF26F;
+    text-align: left; /* Ensures text is aligned to the right */
+    max-width: 600px; /* Optional: restricts the width of the text area */
+    margin-left: 60px;
+    margin-top: 80px;
+}
